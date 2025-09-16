@@ -15,7 +15,7 @@ Simple installer script for easy setup
 Installation
 Automatic (recommended)
 text
-curl -sSL https://github.com/<yourusername>/unipack/raw/main/install.sh | bash
+curl -sSL https://github.com/therealturtlegod855/unipack/raw/main/install.sh | bash
 This script will:
 
 Install build dependencies and ncurses
@@ -26,7 +26,7 @@ Build and install Unipack to /usr/local/bin/
 
 Manual
 text
-git clone https://github.com/<yourusername>/unipack.git
+git clone https://github.com/therealturtlegod855/unipack.git
 cd unipack
 sudo apt-get install build-essential libncurses-dev
 g++ -o unipack unipack.cpp -lncurses
